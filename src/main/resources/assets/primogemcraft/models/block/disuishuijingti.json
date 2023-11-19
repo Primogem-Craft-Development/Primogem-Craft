@@ -1,0 +1,9 @@
+{
+  "parent": "primogemcraft:custom/disui1",
+  "textures": {
+    "all": "primogemcraft:block/disuijiejing001",
+    "particle": "primogemcraft:block/disui",
+    "0": "primogemcraft:block/disuijiejing001"
+  },
+  "render_type": "solid"
+}

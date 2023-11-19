@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": [],
+  "base": {
+    "item": "minecraft:iron_boots"
+  },
+  "addition": {
+    "item": "primogemcraft:rytsj"
+  },
+  "result": {
+    "item": "primogemcraft:rytt_boots"
+  }
+}

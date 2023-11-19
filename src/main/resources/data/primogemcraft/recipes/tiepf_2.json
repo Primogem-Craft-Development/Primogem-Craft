@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": [],
+  "base": {
+    "tag": "forge:tie_2"
+  },
+  "addition": {
+    "item": "primogemcraft:mzsj"
+  },
+  "result": {
+    "item": "minecraft:iron_leggings"
+  }
+}

@@ -1,0 +1,67 @@
+plugins {
+    id "dev.architectury.loom" version "1.4-SNAPSHOT"
+}
+
+sourceCompatibility = targetCompatibility = JavaVersion.VERSION_17
+
+archivesBaseName = project.archives_base_name
+version = project.mod_version
+
+loom {
+    silentMojangMappingsLicense()
+}
+
+repositories {
+    maven { url = "https://maven.neoforged.net/releases" }
+    maven { url = 'https://jitpack.io' }
+    maven { url = 'https://api.modrinth.com/maven' }
+    maven { url = 'https://maven.shedaniel.me' }
+    maven { url = 'https://maven.parchmentmc.org' }
+}
+
+dependencies {
+    minecraft "com.mojang:minecraft:${project.minecraft_version}"
+    mappings loom.layered() {
+        officialMojangMappings()
+        parchment("org.parchmentmc.data:parchment-1.20.1:2023.09.03@zip")
+    }
+    forge "net.minecraftforge:forge:${project.forge_version}"
+
+    modImplementation "maven.modrinth:imblocker-original:4.0.5"
+    modCompileOnly "me.shedaniel:RoughlyEnoughItems-api-forge:$rei_version"
+    modCompileOnly "me.shedaniel:RoughlyEnoughItems-default-plugin-forge:$rei_version"
+    modRuntimeOnly "me.shedaniel:RoughlyEnoughItems-forge:$rei_version"
+}
+
+processResources {
+    inputs.property "version", project.version
+
+    filesMatching("META-INF/mods.toml") {
+        expand "version": project.version
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = "UTF-8"
+    options.release = 17
+}
+
+tasks.register("prebuild") {
+    doFirst {
+        tasks.compileJava.options.debugOptions.debugLevel = "none"
+    }
+}
+
+build {
+    mustRunAfter(prebuild)
+    dependsOn(prebuild)
+}
+
+jar {
+    manifest {
+        attributes(["Implementation-Title"    : project.name,
+                    "Implementation-Version"  : version,
+                    "Implementation-Vendor"   : project.mod_author,
+                    "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")])
+    }
+}

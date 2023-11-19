@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "primogemcraft:yuzhousuipian"
+    },
+    {
+      "item": "primogemcraft:yuzhousuipian"
+    },
+    {
+      "item": "primogemcraft:yuzhousuipian"
+    },
+    {
+      "item": "primogemcraft:yuzhousuipian"
+    },
+    {
+      "item": "primogemcraft:yuzhousuipian"
+    },
+    {
+      "item": "primogemcraft:yuzhousuipian"
+    },
+    {
+      "item": "primogemcraft:yuzhousuipian"
+    },
+    {
+      "item": "primogemcraft:yuzhousuipian"
+    },
+    {
+      "item": "primogemcraft:yuzhousuipian"
+    }
+  ],
+  "result": {
+    "item": "primogemcraft:suiji_1shijian",
+    "count": 1
+  }
+}

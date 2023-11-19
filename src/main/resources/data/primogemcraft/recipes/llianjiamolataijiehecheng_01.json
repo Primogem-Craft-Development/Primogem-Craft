@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "primogemcraft:llianjiamolakuai"
+    },
+    "1": {
+      "item": "primogemcraft:llianjiamolakuai"
+    },
+    "2": {
+      "item": "primogemcraft:llianjiamolakuai"
+    }
+  },
+  "result": {
+    "item": "primogemcraft:lianjiamolakuaibankuai",
+    "count": 6
+  }
+}

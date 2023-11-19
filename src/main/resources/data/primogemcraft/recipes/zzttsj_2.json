@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": [],
+  "base": {
+    "item": "minecraft:iron_chestplate"
+  },
+  "addition": {
+    "item": "primogemcraft:shengjizizaitie"
+  },
+  "result": {
+    "item": "primogemcraft:zizaitiejia_chestplate"
+  }
+}

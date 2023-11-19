@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": [],
+  "base": {
+    "item": "primogemcraft:djzst_helmet"
+  },
+  "addition": {
+    "item": "primogemcraft:djzsshjsj"
+  },
+  "result": {
+    "item": "primogemcraft:djhjt_helmet"
+  }
+}

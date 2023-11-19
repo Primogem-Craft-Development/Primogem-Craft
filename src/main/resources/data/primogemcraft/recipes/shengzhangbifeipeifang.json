@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "primogemcraft:shengzhangkuai"
+    },
+    "1": {
+      "item": "primogemcraft:shengzhangkuai"
+    },
+    "2": {
+      "item": "primogemcraft:shengzhangkuai"
+    },
+    "3": {
+      "item": "primogemcraft:shengzhangkuai"
+    }
+  },
+  "result": {
+    "item": "primogemcraft:shengzhangbifei",
+    "count": 1
+  }
+}

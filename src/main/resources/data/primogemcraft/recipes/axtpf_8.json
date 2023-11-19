@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": [],
+  "base": {
+    "item": "minecraft:diamond_boots"
+  },
+  "addition": {
+    "item": "primogemcraft:axzssj"
+  },
+  "result": {
+    "item": "primogemcraft:axzst_boots"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": [],
+  "base": {
+    "item": "primogemcraft:axg"
+  },
+  "addition": {
+    "item": "primogemcraft:yuansujingti"
+  },
+  "result": {
+    "item": "primogemcraft:yxaxg"
+  }
+}

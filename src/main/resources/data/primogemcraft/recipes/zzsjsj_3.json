@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": [],
+  "base": {
+    "item": "minecraft:netherite_leggings"
+  },
+  "addition": {
+    "item": "primogemcraft:shengjizizaihej"
+  },
+  "result": {
+    "item": "primogemcraft:zizizaihejintao_leggings"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "primogemcraft:dibiaomola_01_feature",
+  "config": {
+    "structure": "primogemcraft:xinmolayiji04",
+    "random_rotation": true,
+    "random_mirror": true,
+    "ignored_blocks": "minecraft:structure_block",
+    "offset": [
+      0,
+      -13,
+      0
+    ]
+  }
+}

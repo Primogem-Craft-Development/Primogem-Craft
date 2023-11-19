@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " 1 ",
+    " 4 ",
+    "6 8"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:blaze_powder"
+    },
+    "4": {
+      "item": "minecraft:dragon_breath"
+    },
+    "6": {
+      "tag": "forge:glass"
+    },
+    "8": {
+      "tag": "forge:glass"
+    }
+  },
+  "result": {
+    "item": "primogemcraft:qwtldhy",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": [],
+  "base": {
+    "tag": "forge:ystj"
+  },
+  "addition": {
+    "item": "primogemcraft:mzsj"
+  },
+  "result": {
+    "item": "minecraft:iron_sword"
+  }
+}

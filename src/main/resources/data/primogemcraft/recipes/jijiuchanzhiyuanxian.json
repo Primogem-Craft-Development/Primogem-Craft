@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "primogemcraft:jijiuchanzhiyuan"
+    },
+    "1": {
+      "tag": "minecraft:wool"
+    },
+    "2": {
+      "item": "primogemcraft:jijiuchanzhiyuan"
+    }
+  },
+  "result": {
+    "item": "primogemcraft:jiuchanzhiyuanxian",
+    "count": 4
+  }
+}

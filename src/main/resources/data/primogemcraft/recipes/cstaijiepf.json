@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "primogemcraft:cangsangshizhuan"
+    },
+    "1": {
+      "item": "primogemcraft:cangsangshizhuan"
+    },
+    "2": {
+      "item": "primogemcraft:cangsangshizhuan"
+    }
+  },
+  "result": {
+    "item": "primogemcraft:cangsangshizhuantaijie",
+    "count": 3
+  }
+}
