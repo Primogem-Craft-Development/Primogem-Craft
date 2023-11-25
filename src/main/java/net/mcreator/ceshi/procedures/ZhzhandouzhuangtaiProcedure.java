@@ -33,38 +33,38 @@ public class ZhzhandouzhuangtaiProcedure {
 		if (entity instanceof LivingEntity _livEnt0 && _livEnt0.hasEffect(PrimogemcraftModMobEffects.ZHANDOUZHUANGTAI.get())) {
 			if (Math.random() < 0.5) {
 				if (Math.random() < 0.25) {
-					if (!(sourceentity == entity)) {
+					if (!(entity == sourceentity)) {
 						if (sourceentity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 							_entity.addEffect(new MobEffectInstance(MobEffects.WITHER, 100, 0, false, false));
 					}
-					if (!(immediatesourceentity == entity)) {
+					if (!(entity == immediatesourceentity)) {
 						if (immediatesourceentity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 							_entity.addEffect(new MobEffectInstance(MobEffects.WITHER, 100, 0, false, false));
 					}
 				} else if (Math.random() < 0.25) {
-					if (!(sourceentity == entity)) {
+					if (!(entity == sourceentity)) {
 						if (sourceentity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 							_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 100, 2, false, false));
 					}
-					if (!(immediatesourceentity == entity)) {
+					if (!(entity == immediatesourceentity)) {
 						if (immediatesourceentity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 							_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 100, 2, false, false));
 					}
 				} else if (Math.random() < 0.25) {
-					if (!(sourceentity == entity)) {
+					if (!(entity == sourceentity)) {
 						if (sourceentity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 							_entity.addEffect(new MobEffectInstance(MobEffects.BLINDNESS, 100, 2, false, false));
 					}
-					if (!(immediatesourceentity == entity)) {
+					if (!(entity == immediatesourceentity)) {
 						if (immediatesourceentity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 							_entity.addEffect(new MobEffectInstance(MobEffects.BLINDNESS, 100, 2, false, false));
 					}
 				} else {
-					if (!(sourceentity == entity)) {
+					if (!(entity == sourceentity)) {
 						if (sourceentity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 							_entity.addEffect(new MobEffectInstance(MobEffects.DARKNESS, 100, 2, false, false));
 					}
-					if (!(immediatesourceentity == entity)) {
+					if (!(entity == immediatesourceentity)) {
 						if (immediatesourceentity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 							_entity.addEffect(new MobEffectInstance(MobEffects.DARKNESS, 100, 2, false, false));
 					}

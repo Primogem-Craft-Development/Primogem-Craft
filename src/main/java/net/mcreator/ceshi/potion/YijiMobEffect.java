@@ -11,7 +11,7 @@ import net.mcreator.ceshi.procedures.Yjsx2Procedure;
 
 public class YijiMobEffect extends MobEffect {
 	public YijiMobEffect() {
-		super(MobEffectCategory.HARMFUL, -8123894);
+		super(MobEffectCategory.NEUTRAL, -8123894);
 	}
 
 	@Override
