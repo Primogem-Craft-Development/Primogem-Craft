@@ -2,27 +2,12 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "0  ",
-    "34 ",
-    "678"
+    "a  ",
+    "aa ",
+    "aaa"
   ],
   "key": {
-    "0": {
-      "item": "primogemcraft:cangsangshizhuan"
-    },
-    "3": {
-      "item": "primogemcraft:cangsangshizhuan"
-    },
-    "4": {
-      "item": "primogemcraft:cangsangshizhuan"
-    },
-    "6": {
-      "item": "primogemcraft:cangsangshizhuan"
-    },
-    "7": {
-      "item": "primogemcraft:cangsangshizhuan"
-    },
-    "8": {
+    "a": {
       "item": "primogemcraft:cangsangshizhuan"
     }
   },

@@ -2,37 +2,16 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "012",
-    "345",
-    "678"
+    "aaa",
+    "aba",
+    "aaa"
   ],
   "key": {
-    "0": {
+    "a": {
       "tag": "minecraft:stone"
     },
-    "1": {
-      "tag": "minecraft:stone"
-    },
-    "2": {
-      "tag": "minecraft:stone"
-    },
-    "3": {
-      "tag": "minecraft:stone"
-    },
-    "4": {
+    "b": {
       "item": "primogemcraft:disuikuai_1"
-    },
-    "5": {
-      "tag": "minecraft:stone"
-    },
-    "6": {
-      "tag": "minecraft:stone"
-    },
-    "7": {
-      "tag": "minecraft:stone"
-    },
-    "8": {
-      "tag": "minecraft:stone"
     }
   },
   "result": {

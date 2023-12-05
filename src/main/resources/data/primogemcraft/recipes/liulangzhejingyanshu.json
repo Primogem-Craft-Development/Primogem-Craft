@@ -2,25 +2,19 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    " 1 ",
-    "345",
-    " 7 "
+    " a ",
+    "bcb",
+    " b "
   ],
   "key": {
-    "1": {
+    "a": {
       "item": "primogemcraft:cchonggaodaodedezanxu"
     },
-    "3": {
+    "b": {
       "item": "minecraft:lapis_lazuli"
     },
-    "4": {
+    "c": {
       "item": "minecraft:book"
-    },
-    "5": {
-      "item": "minecraft:lapis_lazuli"
-    },
-    "7": {
-      "item": "minecraft:lapis_lazuli"
     }
   },
   "result": {

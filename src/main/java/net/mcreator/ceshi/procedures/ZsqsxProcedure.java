@@ -14,9 +14,12 @@ public class ZsqsxProcedure {
 		if (entity == null)
 			return;
 		if (entity.isShiftKeyDown()) {
+			if (itemstack.getOrCreateTag().getDouble("zsq_sx") == 0) {
+				itemstack.getOrCreateTag().putDouble("zsq_sx", 10);
+			}
 			{
 				ItemStack _ist = itemstack;
-				if (_ist.hurt((int) (itemstack.getMaxDamage() * 0.1), RandomSource.create(), null)) {
+				if (_ist.hurt((int) (itemstack.getMaxDamage() * 0.05), RandomSource.create(), null)) {
 					_ist.shrink(1);
 					_ist.setDamageValue(0);
 				}
@@ -25,9 +28,6 @@ public class ZsqsxProcedure {
 				_player.getCooldowns().addCooldown(itemstack.getItem(), (int) (itemstack.getOrCreateTag().getDouble("zsq_sx") * 20 * 1.5));
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 				_entity.addEffect(new MobEffectInstance(PrimogemcraftModMobEffects.GUOQU.get(), (int) (itemstack.getOrCreateTag().getDouble("zsq_sx") * 20), 0));
-		}
-		if (itemstack.getOrCreateTag().getDouble("zsq_sx") == 0) {
-			itemstack.getOrCreateTag().putDouble("zsq_sx", 10);
 		}
 	}
 }

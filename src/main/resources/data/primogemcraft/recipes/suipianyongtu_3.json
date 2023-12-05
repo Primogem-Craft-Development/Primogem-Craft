@@ -2,37 +2,16 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "012",
-    "345",
-    "678"
+    "aaa",
+    "aba",
+    "aaa"
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "primogemcraft:lajitongsuipian"
     },
-    "1": {
-      "item": "primogemcraft:lajitongsuipian"
-    },
-    "2": {
-      "item": "primogemcraft:lajitongsuipian"
-    },
-    "3": {
-      "item": "primogemcraft:lajitongsuipian"
-    },
-    "4": {
+    "b": {
       "item": "primogemcraft:shanbianzhichen"
-    },
-    "5": {
-      "item": "primogemcraft:lajitongsuipian"
-    },
-    "6": {
-      "item": "primogemcraft:lajitongsuipian"
-    },
-    "7": {
-      "item": "primogemcraft:lajitongsuipian"
-    },
-    "8": {
-      "item": "primogemcraft:lajitongsuipian"
     }
   },
   "result": {

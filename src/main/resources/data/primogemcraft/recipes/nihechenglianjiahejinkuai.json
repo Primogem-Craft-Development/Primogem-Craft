@@ -2,36 +2,18 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "012",
-    "345",
-    "678"
+    "aaa",
+    "abc",
+    "ccc"
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "minecraft:netherite_scrap"
     },
-    "1": {
-      "item": "minecraft:netherite_scrap"
-    },
-    "2": {
-      "item": "minecraft:netherite_scrap"
-    },
-    "3": {
-      "item": "minecraft:netherite_scrap"
-    },
-    "4": {
+    "b": {
       "item": "minecraft:stone"
     },
-    "5": {
-      "item": "minecraft:gold_ingot"
-    },
-    "6": {
-      "item": "minecraft:gold_ingot"
-    },
-    "7": {
-      "item": "minecraft:gold_ingot"
-    },
-    "8": {
+    "c": {
       "item": "minecraft:gold_ingot"
     }
   },

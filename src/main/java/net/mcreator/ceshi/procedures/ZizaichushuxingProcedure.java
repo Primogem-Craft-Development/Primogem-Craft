@@ -5,7 +5,6 @@ import net.minecraft.world.item.enchantment.Enchantments;
 import net.minecraft.world.item.enchantment.EnchantmentHelper;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.util.RandomSource;
 import net.minecraft.util.Mth;
@@ -25,11 +24,10 @@ public class ZizaichushuxingProcedure {
 				}
 				return false;
 			}
-		}.checkGamemode(entity)) && (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == itemstack.getItem()
-				&& (entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY).getItem() == itemstack.getItem()) {
+		}.checkGamemode(entity))) {
 			itemstack.enchant(Enchantments.KNOCKBACK, Mth.nextInt(RandomSource.create(), 8, 10));
-		}
-		if (new Object() {
+			itemstack.getOrCreateTag().putBoolean("a0", true);
+		} else if (new Object() {
 			public boolean checkGamemode(Entity _ent) {
 				if (_ent instanceof ServerPlayer _serverPlayer) {
 					return _serverPlayer.gameMode.getGameModeForPlayer() == GameType.CREATIVE;

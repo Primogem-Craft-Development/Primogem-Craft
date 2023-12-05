@@ -2,30 +2,30 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "012",
-    "345",
-    " 7 "
+    "abc",
+    "def",
+    " g "
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "minecraft:blue_wool"
     },
-    "1": {
+    "b": {
       "item": "primogemcraft:chuangshijiejing"
     },
-    "2": {
+    "c": {
       "item": "minecraft:lime_wool"
     },
-    "3": {
+    "d": {
       "item": "primogemcraft:chiyuejinshu"
     },
-    "4": {
+    "e": {
       "item": "primogemcraft:shanbianzhichen"
     },
-    "5": {
+    "f": {
       "item": "primogemcraft:xinyuejinshu"
     },
-    "7": {
+    "g": {
       "item": "minecraft:bowl"
     }
   },

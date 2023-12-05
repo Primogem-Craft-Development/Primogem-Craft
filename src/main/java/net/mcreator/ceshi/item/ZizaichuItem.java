@@ -13,6 +13,7 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.network.chat.Component;
 
 import net.mcreator.ceshi.procedures.ZizaichushuxingProcedure;
+import net.mcreator.ceshi.procedures.Zizaichushuxing02Procedure;
 import net.mcreator.ceshi.init.PrimogemcraftModItems;
 
 import java.util.List;
@@ -62,6 +63,6 @@ public class ZizaichuItem extends HoeItem {
 	@Override
 	public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
 		super.inventoryTick(itemstack, world, entity, slot, selected);
-		ZizaichushuxingProcedure.execute(entity, itemstack);
+		Zizaichushuxing02Procedure.execute(entity, itemstack);
 	}
 }

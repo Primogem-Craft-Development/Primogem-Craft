@@ -2,27 +2,12 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "0  ",
-    "34 ",
-    "678"
+    "a  ",
+    "aa ",
+    "aaa"
   ],
   "key": {
-    "0": {
-      "item": "primogemcraft:caoyuanhehuamuban"
-    },
-    "3": {
-      "item": "primogemcraft:caoyuanhehuamuban"
-    },
-    "4": {
-      "item": "primogemcraft:caoyuanhehuamuban"
-    },
-    "6": {
-      "item": "primogemcraft:caoyuanhehuamuban"
-    },
-    "7": {
-      "item": "primogemcraft:caoyuanhehuamuban"
-    },
-    "8": {
+    "a": {
       "item": "primogemcraft:caoyuanhehuamuban"
     }
   },

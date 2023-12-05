@@ -2,37 +2,19 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "012",
-    "345",
-    "678"
+    "aba",
+    "bcb",
+    "aba"
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "primogemcraft:yuanshi"
     },
-    "1": {
+    "b": {
       "item": "primogemcraft:dijingduanpian"
     },
-    "2": {
-      "item": "primogemcraft:yuanshi"
-    },
-    "3": {
-      "item": "primogemcraft:dijingduanpian"
-    },
-    "4": {
+    "c": {
       "item": "minecraft:netherite_scrap"
-    },
-    "5": {
-      "item": "primogemcraft:dijingduanpian"
-    },
-    "6": {
-      "item": "primogemcraft:yuanshi"
-    },
-    "7": {
-      "item": "primogemcraft:dijingduanpian"
-    },
-    "8": {
-      "item": "primogemcraft:yuanshi"
     }
   },
   "result": {

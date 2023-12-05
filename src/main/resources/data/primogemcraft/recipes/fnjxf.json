@@ -2,13 +2,13 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "01"
+    "ab"
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "primogemcraft:qwkwzj"
     },
-    "1": {
+    "b": {
       "item": "primogemcraft:shqwfnj"
     }
   },

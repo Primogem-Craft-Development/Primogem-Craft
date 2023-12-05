@@ -2,37 +2,16 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "012",
-    "345",
-    "678"
+    "aaa",
+    "aba",
+    "aaa"
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "primogemcraft:caoyuanhe"
     },
-    "1": {
-      "item": "primogemcraft:caoyuanhe"
-    },
-    "2": {
-      "item": "primogemcraft:caoyuanhe"
-    },
-    "3": {
-      "item": "primogemcraft:caoyuanhe"
-    },
-    "4": {
+    "b": {
       "item": "primogemcraft:zuishengsuixie"
-    },
-    "5": {
-      "item": "primogemcraft:caoyuanhe"
-    },
-    "6": {
-      "item": "primogemcraft:caoyuanhe"
-    },
-    "7": {
-      "item": "primogemcraft:caoyuanhe"
-    },
-    "8": {
-      "item": "primogemcraft:caoyuanhe"
     }
   },
   "result": {

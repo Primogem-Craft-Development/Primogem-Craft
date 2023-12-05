@@ -2,27 +2,12 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "0  ",
-    "34 ",
-    "678"
+    "a  ",
+    "aa ",
+    "aaa"
   ],
   "key": {
-    "0": {
-      "item": "primogemcraft:d_11"
-    },
-    "3": {
-      "item": "primogemcraft:d_11"
-    },
-    "4": {
-      "item": "primogemcraft:d_11"
-    },
-    "6": {
-      "item": "primogemcraft:d_11"
-    },
-    "7": {
-      "item": "primogemcraft:d_11"
-    },
-    "8": {
+    "a": {
       "item": "primogemcraft:d_11"
     }
   },

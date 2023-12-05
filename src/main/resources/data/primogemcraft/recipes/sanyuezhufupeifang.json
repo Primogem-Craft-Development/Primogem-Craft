@@ -2,37 +2,31 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "012",
-    "345",
-    "678"
+    "abc",
+    "def",
+    "cga"
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "minecraft:pink_dye"
     },
-    "1": {
+    "b": {
       "item": "primogemcraft:shanbianzhichen"
     },
-    "2": {
+    "c": {
       "item": "minecraft:light_blue_dye"
     },
-    "3": {
+    "d": {
       "item": "primogemcraft:xinyuejinshu"
     },
-    "4": {
+    "e": {
       "item": "primogemcraft:sanyueqidiaoxiang_01"
     },
-    "5": {
+    "f": {
       "item": "primogemcraft:manyuejinshu"
     },
-    "6": {
-      "item": "minecraft:light_blue_dye"
-    },
-    "7": {
+    "g": {
       "item": "primogemcraft:chiyuejinshu"
-    },
-    "8": {
-      "item": "minecraft:pink_dye"
     }
   },
   "result": {

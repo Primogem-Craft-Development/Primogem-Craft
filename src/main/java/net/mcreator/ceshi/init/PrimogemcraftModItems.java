@@ -162,6 +162,9 @@ import net.mcreator.ceshi.item.QiwuchongwangItem;
 import net.mcreator.ceshi.item.QinlaodezhexueItem;
 import net.mcreator.ceshi.item.Qhzllh2Item;
 import net.mcreator.ceshi.item.QhzlhItem;
+import net.mcreator.ceshi.item.Qhmbmlys02Item;
+import net.mcreator.ceshi.item.Qhmbmlys01Item;
+import net.mcreator.ceshi.item.QhmbmlItem;
 import net.mcreator.ceshi.item.QgdysjItem;
 import net.mcreator.ceshi.item.QQuHangZhoullhItem;
 import net.mcreator.ceshi.item.PosuimengyingItem;
@@ -710,6 +713,9 @@ public class PrimogemcraftModItems {
 	public static final RegistryObject<Item> QQIWUZHANLIPINSHITI_SPAWN_EGG = REGISTRY.register("qqiwuzhanlipinshiti_spawn_egg", () -> new ForgeSpawnEggItem(PrimogemcraftModEntities.QQIWUZHANLIPINSHITI, -1, -1, new Item.Properties()));
 	public static final RegistryObject<Item> BAIGUANGGUODUSHENGWU_SPAWN_EGG = REGISTRY.register("baiguangguodushengwu_spawn_egg", () -> new ForgeSpawnEggItem(PrimogemcraftModEntities.BAIGUANGGUODUSHENGWU, -1, -1, new Item.Properties()));
 	public static final RegistryObject<Item> KAIFAQIANGZHI_01 = REGISTRY.register("kaifaqiangzhi_01", () -> new Kaifaqiangzhi01Item());
+	public static final RegistryObject<Item> QHMBML = REGISTRY.register("qhmbml", () -> new QhmbmlItem());
+	public static final RegistryObject<Item> QHMBMLYS_01 = REGISTRY.register("qhmbmlys_01", () -> new Qhmbmlys01Item());
+	public static final RegistryObject<Item> QHMBMLYS_02 = REGISTRY.register("qhmbmlys_02", () -> new Qhmbmlys02Item());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

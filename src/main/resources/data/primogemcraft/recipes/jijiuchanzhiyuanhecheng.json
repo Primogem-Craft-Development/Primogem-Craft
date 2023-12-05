@@ -2,25 +2,19 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    " 1 ",
-    "345",
-    " 7 "
+    " a ",
+    "bcb",
+    " a "
   ],
   "key": {
-    "1": {
+    "a": {
       "item": "primogemcraft:xinghui"
     },
-    "3": {
+    "b": {
       "item": "primogemcraft:yuanshi"
     },
-    "4": {
+    "c": {
       "item": "primogemcraft:xixiangyuzhiyuan"
-    },
-    "5": {
-      "item": "primogemcraft:yuanshi"
-    },
-    "7": {
-      "item": "primogemcraft:xinghui"
     }
   },
   "result": {

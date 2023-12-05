@@ -1,6 +1,8 @@
 {
   "type": "minecraft:smithing_transform",
-  "template": [],
+  "template": {
+    "item": "primogemcraft:qhmbmlys_01"
+  },
   "base": {
     "item": "primogemcraft:ruzst_leggings"
   },

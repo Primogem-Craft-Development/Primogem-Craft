@@ -2,27 +2,15 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "012",
-    "345"
+    "aba",
+    "aba"
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "primogemcraft:yishijiemuban_planks"
     },
-    "1": {
+    "b": {
       "item": "minecraft:stick"
-    },
-    "2": {
-      "item": "primogemcraft:yishijiemuban_planks"
-    },
-    "3": {
-      "item": "primogemcraft:yishijiemuban_planks"
-    },
-    "4": {
-      "item": "minecraft:stick"
-    },
-    "5": {
-      "item": "primogemcraft:yishijiemuban_planks"
     }
   },
   "result": {

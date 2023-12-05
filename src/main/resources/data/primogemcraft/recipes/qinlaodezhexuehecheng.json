@@ -2,24 +2,21 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "012",
-    " 4 ",
-    " 7 "
+    "abc",
+    " d ",
+    " d "
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "primogemcraft:mmolapeiziwupin"
     },
-    "1": {
+    "b": {
       "item": "primogemcraft:yuanshi"
     },
-    "2": {
+    "c": {
       "item": "primogemcraft:jingzhimolakuai"
     },
-    "4": {
-      "item": "primogemcraft:yishijiemugun"
-    },
-    "7": {
+    "d": {
       "item": "primogemcraft:yishijiemugun"
     }
   },

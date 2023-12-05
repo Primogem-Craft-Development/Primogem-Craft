@@ -2,27 +2,12 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "0  ",
-    "34 ",
-    "678"
+    "a  ",
+    "aa ",
+    "aaa"
   ],
   "key": {
-    "0": {
-      "item": "primogemcraft:xiumu"
-    },
-    "3": {
-      "item": "primogemcraft:xiumu"
-    },
-    "4": {
-      "item": "primogemcraft:xiumu"
-    },
-    "6": {
-      "item": "primogemcraft:xiumu"
-    },
-    "7": {
-      "item": "primogemcraft:xiumu"
-    },
-    "8": {
+    "a": {
       "item": "primogemcraft:xiumu"
     }
   },

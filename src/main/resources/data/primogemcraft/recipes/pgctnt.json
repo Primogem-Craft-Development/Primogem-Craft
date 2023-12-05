@@ -2,37 +2,16 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "012",
-    "345",
-    "678"
+    "aba",
+    "bab",
+    "aba"
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "primogemcraft:disui"
     },
-    "1": {
+    "b": {
       "tag": "minecraft:sand"
-    },
-    "2": {
-      "item": "primogemcraft:disui"
-    },
-    "3": {
-      "tag": "minecraft:sand"
-    },
-    "4": {
-      "item": "primogemcraft:disui"
-    },
-    "5": {
-      "tag": "minecraft:sand"
-    },
-    "6": {
-      "item": "primogemcraft:disui"
-    },
-    "7": {
-      "tag": "minecraft:sand"
-    },
-    "8": {
-      "item": "primogemcraft:disui"
     }
   },
   "result": {

@@ -1,27 +1,15 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "pattern": [
-    "01",
-    " 3",
-    " 5"
-  ],
-  "key": {
-    "0": {
-      "item": "primogemcraft:yuanshi"
-    },
-    "1": {
-      "item": "primogemcraft:yuanshiyuanpei"
-    },
-    "3": {
-      "item": "minecraft:stick"
-    },
-    "5": {
-      "item": "minecraft:stick"
-    }
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "primogemcraft:yuanshiyuanpei"
+  },
+  "base": {
+    "item": "minecraft:wooden_hoe"
+  },
+  "addition": {
+    "item": "primogemcraft:yuanshi"
   },
   "result": {
-    "item": "primogemcraft:yuanshichutou",
-    "count": 1
+    "item": "primogemcraft:yuanshichutou"
   }
 }

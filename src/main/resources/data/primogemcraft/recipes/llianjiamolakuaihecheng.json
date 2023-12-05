@@ -2,37 +2,19 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "012",
-    "345",
-    "678"
+    "aba",
+    "bcb",
+    "aba"
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "minecraft:stone_bricks"
     },
-    "1": {
+    "b": {
       "item": "minecraft:bricks"
     },
-    "2": {
-      "item": "minecraft:stone_bricks"
-    },
-    "3": {
-      "item": "minecraft:bricks"
-    },
-    "4": {
+    "c": {
       "item": "primogemcraft:molakuai_01"
-    },
-    "5": {
-      "item": "minecraft:bricks"
-    },
-    "6": {
-      "item": "minecraft:stone_bricks"
-    },
-    "7": {
-      "item": "minecraft:bricks"
-    },
-    "8": {
-      "item": "minecraft:stone_bricks"
     }
   },
   "result": {

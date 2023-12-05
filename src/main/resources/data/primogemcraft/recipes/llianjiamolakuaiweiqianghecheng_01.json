@@ -2,26 +2,11 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "012",
-    "345"
+    "aaa",
+    "aaa"
   ],
   "key": {
-    "0": {
-      "item": "primogemcraft:llianjiamolakuai"
-    },
-    "1": {
-      "item": "primogemcraft:llianjiamolakuai"
-    },
-    "2": {
-      "item": "primogemcraft:llianjiamolakuai"
-    },
-    "3": {
-      "item": "primogemcraft:llianjiamolakuai"
-    },
-    "4": {
-      "item": "primogemcraft:llianjiamolakuai"
-    },
-    "5": {
+    "a": {
       "item": "primogemcraft:llianjiamolakuai"
     }
   },

@@ -2,21 +2,15 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "012",
-    " 4 "
+    "aba",
+    " a "
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "primogemcraft:yiyinhedaletou"
     },
-    "1": {
+    "b": {
       "item": "primogemcraft:qiwuchongwang"
-    },
-    "2": {
-      "item": "primogemcraft:yiyinhedaletou"
-    },
-    "4": {
-      "item": "primogemcraft:yiyinhedaletou"
     }
   },
   "result": {

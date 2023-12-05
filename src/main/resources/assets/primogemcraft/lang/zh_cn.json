@@ -485,6 +485,7 @@
   "advancements.mmolachujindu.descr": "节俭",
   "entity.primogemcraft.xiaoheita": "黑塔----异世界分塔",
   "subtitles.daoqigantiancun013": "",
+  "item.primogemcraft.qhmbml": "锻造模板",
   "item.primogemcraft.jiuchanzhiyuanxian": "华丽丝线",
   "effect.primogemcraft.guoqu": "§d过去",
   "item.primogemcraft.zizizaihejintao_boots": "§a『自在松石』§e下界合金靴子",
@@ -684,5 +685,7 @@
   "advancements.beiguotiejiang.title": "§6北国铁匠",
   "item.primogemcraft.yyanziyueliangchangpian.desc": "HOYO-MiX",
   "item.primogemcraft.rytt_leggings": "§c『燃愿玛瑙』§f铁护腿",
-  "item.primogemcraft.qhzllh_2": "珍稀 强化助力礼盒"
+  "item.primogemcraft.qhzllh_2": "珍稀 强化助力礼盒",
+  "item.primogemcraft.qhmbmlys_01": "锻造模板",
+  "item.primogemcraft.qhmbmlys_02": "锻造模板"
 }

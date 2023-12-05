@@ -2,37 +2,16 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "012",
-    "345",
-    "678"
+    "aaa",
+    "aba",
+    "aaa"
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "primogemcraft:ziziyousongshisuixie"
     },
-    "1": {
-      "item": "primogemcraft:ziziyousongshisuixie"
-    },
-    "2": {
-      "item": "primogemcraft:ziziyousongshisuixie"
-    },
-    "3": {
-      "item": "primogemcraft:ziziyousongshisuixie"
-    },
-    "4": {
+    "b": {
       "item": "primogemcraft:zziyousongshi"
-    },
-    "5": {
-      "item": "primogemcraft:ziziyousongshisuixie"
-    },
-    "6": {
-      "item": "primogemcraft:ziziyousongshisuixie"
-    },
-    "7": {
-      "item": "primogemcraft:ziziyousongshisuixie"
-    },
-    "8": {
-      "item": "primogemcraft:ziziyousongshisuixie"
     }
   },
   "result": {

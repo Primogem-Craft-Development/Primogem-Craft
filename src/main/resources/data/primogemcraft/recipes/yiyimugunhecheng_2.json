@@ -2,19 +2,16 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "0",
-    "1",
-    "2"
+    "a",
+    "b",
+    "a"
   ],
   "key": {
-    "0": {
+    "a": {
       "tag": "minecraft:planks"
     },
-    "1": {
+    "b": {
       "item": "primogemcraft:yuanshi"
-    },
-    "2": {
-      "tag": "minecraft:planks"
     }
   },
   "result": {

@@ -2,36 +2,30 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "012",
-    "345",
-    "678"
+    "aba",
+    "cdc",
+    "efg"
   ],
   "key": {
-    "0": {
+    "a": {
       "tag": "minecraft:planks"
     },
-    "1": {
+    "b": {
       "item": "minecraft:dispenser"
     },
-    "2": {
-      "tag": "minecraft:planks"
-    },
-    "3": {
+    "c": {
       "item": "minecraft:obsidian"
     },
-    "4": {
+    "d": {
       "item": "primogemcraft:jianlaohuangyu"
     },
-    "5": {
-      "item": "minecraft:obsidian"
-    },
-    "6": {
+    "e": {
       "item": "minecraft:yellow_concrete"
     },
-    "7": {
+    "f": {
       "item": "minecraft:bedrock"
     },
-    "8": {
+    "g": {
       "item": "minecraft:orange_concrete"
     }
   },

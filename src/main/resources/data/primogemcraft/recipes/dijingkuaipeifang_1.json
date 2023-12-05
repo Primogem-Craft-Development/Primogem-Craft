@@ -2,20 +2,11 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "01",
-    "23"
+    "aa",
+    "aa"
   ],
   "key": {
-    "0": {
-      "item": "primogemcraft:dijingduanpian"
-    },
-    "1": {
-      "item": "primogemcraft:dijingduanpian"
-    },
-    "2": {
-      "item": "primogemcraft:dijingduanpian"
-    },
-    "3": {
+    "a": {
       "item": "primogemcraft:dijingduanpian"
     }
   },

@@ -2,27 +2,27 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    " 12",
-    "34 ",
-    "67 "
+    " ab",
+    "cd ",
+    "ef "
   ],
   "key": {
-    "1": {
+    "a": {
       "item": "primogemcraft:zuishengkuai"
     },
-    "2": {
+    "b": {
       "item": "minecraft:diamond"
     },
-    "3": {
+    "c": {
       "item": "primogemcraft:zuishengzijing"
     },
-    "4": {
+    "d": {
       "item": "minecraft:diamond_sword"
     },
-    "6": {
+    "e": {
       "item": "minecraft:white_terracotta"
     },
-    "7": {
+    "f": {
       "item": "minecraft:stick"
     }
   },

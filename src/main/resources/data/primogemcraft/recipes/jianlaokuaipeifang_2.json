@@ -2,37 +2,16 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "012",
-    "345",
-    "678"
+    "aaa",
+    "aba",
+    "aaa"
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "primogemcraft:jianransuixie"
     },
-    "1": {
-      "item": "primogemcraft:jianransuixie"
-    },
-    "2": {
-      "item": "primogemcraft:jianransuixie"
-    },
-    "3": {
-      "item": "primogemcraft:jianransuixie"
-    },
-    "4": {
+    "b": {
       "item": "primogemcraft:jianlaohuangyu"
-    },
-    "5": {
-      "item": "primogemcraft:jianransuixie"
-    },
-    "6": {
-      "item": "primogemcraft:jianransuixie"
-    },
-    "7": {
-      "item": "primogemcraft:jianransuixie"
-    },
-    "8": {
-      "item": "primogemcraft:jianransuixie"
     }
   },
   "result": {

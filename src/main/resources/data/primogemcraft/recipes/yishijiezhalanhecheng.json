@@ -2,27 +2,15 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "012",
-    "345"
+    "aba",
+    "aba"
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "primogemcraft:yishijieyuanmumuban"
     },
-    "1": {
+    "b": {
       "item": "primogemcraft:yishijiemugun"
-    },
-    "2": {
-      "item": "primogemcraft:yishijieyuanmumuban"
-    },
-    "3": {
-      "item": "primogemcraft:yishijieyuanmumuban"
-    },
-    "4": {
-      "item": "primogemcraft:yishijiemugun"
-    },
-    "5": {
-      "item": "primogemcraft:yishijieyuanmumuban"
     }
   },
   "result": {

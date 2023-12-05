@@ -2,24 +2,21 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    " 1 ",
-    "345",
-    " 7 "
+    " a ",
+    "bcb",
+    " d "
   ],
   "key": {
-    "1": {
+    "a": {
       "item": "minecraft:diamond"
     },
-    "3": {
+    "b": {
       "item": "primogemcraft:zhaiquan"
     },
-    "4": {
+    "c": {
       "item": "primogemcraft:shanbianzhichen"
     },
-    "5": {
-      "item": "primogemcraft:zhaiquan"
-    },
-    "7": {
+    "d": {
       "item": "primogemcraft:yuansujingti"
     }
   },

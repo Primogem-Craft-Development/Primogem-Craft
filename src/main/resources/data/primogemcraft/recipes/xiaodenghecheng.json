@@ -2,37 +2,25 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "012",
-    "345",
-    "678"
+    "aba",
+    "cde",
+    "aba"
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "minecraft:paper"
     },
-    "1": {
+    "b": {
       "tag": "minecraft:planks"
     },
-    "2": {
-      "item": "minecraft:paper"
-    },
-    "3": {
+    "c": {
       "item": "minecraft:orange_dye"
     },
-    "4": {
+    "d": {
       "item": "primogemcraft:jianlaoduanpian"
     },
-    "5": {
+    "e": {
       "item": "minecraft:yellow_dye"
-    },
-    "6": {
-      "item": "minecraft:paper"
-    },
-    "7": {
-      "tag": "minecraft:planks"
-    },
-    "8": {
-      "item": "minecraft:paper"
     }
   },
   "result": {

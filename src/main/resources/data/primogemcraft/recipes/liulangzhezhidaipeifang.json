@@ -2,34 +2,19 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "0 2",
-    "345",
-    "678"
+    "a a",
+    "bcb",
+    "bbb"
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "minecraft:string"
     },
-    "2": {
-      "item": "minecraft:string"
-    },
-    "3": {
+    "b": {
       "item": "minecraft:leather"
     },
-    "4": {
+    "c": {
       "item": "primogemcraft:mmola_01"
-    },
-    "5": {
-      "item": "minecraft:leather"
-    },
-    "6": {
-      "item": "minecraft:leather"
-    },
-    "7": {
-      "item": "minecraft:leather"
-    },
-    "8": {
-      "item": "minecraft:leather"
     }
   },
   "result": {

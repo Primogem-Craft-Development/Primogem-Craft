@@ -2,25 +2,16 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    " 1 ",
-    "345",
-    " 7 "
+    " a ",
+    "aba",
+    " a "
   ],
   "key": {
-    "1": {
+    "a": {
       "item": "minecraft:amethyst_shard"
     },
-    "3": {
-      "item": "minecraft:amethyst_shard"
-    },
-    "4": {
+    "b": {
       "item": "primogemcraft:yuanshi"
-    },
-    "5": {
-      "item": "minecraft:amethyst_shard"
-    },
-    "7": {
-      "item": "minecraft:amethyst_shard"
     }
   },
   "result": {

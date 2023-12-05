@@ -2,27 +2,12 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "0  ",
-    "34 ",
-    "678"
+    "a  ",
+    "aa ",
+    "aaa"
   ],
   "key": {
-    "0": {
-      "item": "primogemcraft:yishijiemuban_planks"
-    },
-    "3": {
-      "item": "primogemcraft:yishijiemuban_planks"
-    },
-    "4": {
-      "item": "primogemcraft:yishijiemuban_planks"
-    },
-    "6": {
-      "item": "primogemcraft:yishijiemuban_planks"
-    },
-    "7": {
-      "item": "primogemcraft:yishijiemuban_planks"
-    },
-    "8": {
+    "a": {
       "item": "primogemcraft:yishijiemuban_planks"
     }
   },

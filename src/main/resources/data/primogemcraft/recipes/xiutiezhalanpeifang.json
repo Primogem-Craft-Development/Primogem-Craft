@@ -2,26 +2,11 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "012",
-    "345"
+    "aaa",
+    "aaa"
   ],
   "key": {
-    "0": {
-      "item": "primogemcraft:xiutiekuai"
-    },
-    "1": {
-      "item": "primogemcraft:xiutiekuai"
-    },
-    "2": {
-      "item": "primogemcraft:xiutiekuai"
-    },
-    "3": {
-      "item": "primogemcraft:xiutiekuai"
-    },
-    "4": {
-      "item": "primogemcraft:xiutiekuai"
-    },
-    "5": {
+    "a": {
       "item": "primogemcraft:xiutiekuai"
     }
   },

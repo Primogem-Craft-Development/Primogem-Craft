@@ -3,31 +3,19 @@
   "group": "daletouhecheng",
   "category": "misc",
   "pattern": [
-    " 12",
-    "345",
-    "67 "
+    " aa",
+    "bca",
+    "bb "
   ],
   "key": {
-    "1": {
+    "a": {
       "item": "primogemcraft:xixiangyuzhiyuan"
     },
-    "2": {
-      "item": "primogemcraft:xixiangyuzhiyuan"
-    },
-    "3": {
+    "b": {
       "item": "primogemcraft:jijiuchanzhiyuan"
     },
-    "4": {
+    "c": {
       "tag": "minecraft:coals"
-    },
-    "5": {
-      "item": "primogemcraft:xixiangyuzhiyuan"
-    },
-    "6": {
-      "item": "primogemcraft:jijiuchanzhiyuan"
-    },
-    "7": {
-      "item": "primogemcraft:jijiuchanzhiyuan"
     }
   },
   "result": {

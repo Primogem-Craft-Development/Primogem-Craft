@@ -2,36 +2,36 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "012",
-    "345",
-    "678"
+    "abc",
+    "def",
+    "ghi"
   ],
   "key": {
-    "0": {
+    "a": {
       "tag": "minecraft:fishes"
     },
-    "1": {
+    "b": {
       "item": "minecraft:baked_potato"
     },
-    "2": {
+    "c": {
       "item": "minecraft:cooked_beef"
     },
-    "3": {
+    "d": {
       "item": "primogemcraft:qiwuchongwang"
     },
-    "4": {
+    "e": {
       "item": "minecraft:water_bucket"
     },
-    "5": {
+    "f": {
       "item": "primogemcraft:chuangshijiejing"
     },
-    "6": {
+    "g": {
       "item": "primogemcraft:jinzhimola"
     },
-    "7": {
+    "h": {
       "item": "minecraft:bricks"
     },
-    "8": {
+    "i": {
       "item": "primogemcraft:yuanshi"
     }
   },

@@ -491,6 +491,7 @@
   "advancements.mmolachujindu.descr": "Thrifty",
   "subtitles.daoqigantiancun013": "",
   "entity.primogemcraft.xiaoheita": "Herta the Projection",
+  "item.primogemcraft.qhmbml": "锻造模板",
   "item.primogemcraft.jiuchanzhiyuanxian": "Interwined Fate String",
   "effect.primogemcraft.guoqu": "§dPast",
   "item.primogemcraft.zizizaihejintao_boots": "§a『Vayuda Turquoise』§eNetherite Boots",
@@ -690,5 +691,7 @@
   "advancements.beiguotiejiang.title": "§6Northland blacksmith",
   "item.primogemcraft.yyanziyueliangchangpian.desc": "Salty Moon HOYO-MiX",
   "item.primogemcraft.rytt_leggings": "§c『Agnidus Agate』§fIron Leggings",
-  "item.primogemcraft.qhzllh_2": "Rare Enhancement Helping Hand"
+  "item.primogemcraft.qhzllh_2": "Rare Enhancement Helping Hand",
+  "item.primogemcraft.qhmbmlys_01": "锻造模板",
+  "item.primogemcraft.qhmbmlys_02": "锻造模板"
 }

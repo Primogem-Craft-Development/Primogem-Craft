@@ -2,37 +2,19 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "012",
-    "345",
-    "678"
+    "aba",
+    "bcb",
+    "aba"
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "primogemcraft:lajitong"
     },
-    "1": {
+    "b": {
       "item": "primogemcraft:laji"
     },
-    "2": {
-      "item": "primogemcraft:lajitong"
-    },
-    "3": {
-      "item": "primogemcraft:laji"
-    },
-    "4": {
+    "c": {
       "item": "minecraft:stick"
-    },
-    "5": {
-      "item": "primogemcraft:laji"
-    },
-    "6": {
-      "item": "primogemcraft:lajitong"
-    },
-    "7": {
-      "item": "primogemcraft:laji"
-    },
-    "8": {
-      "item": "primogemcraft:lajitong"
     }
   },
   "result": {

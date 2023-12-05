@@ -1,18 +1,14 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "pattern": [
-    " 1",
-    "2 "
-  ],
-  "key": {
-    "1": {
+  "ingredients": [
+    {
       "item": "primogemcraft:ysfc"
     },
-    "2": {
+    {
       "item": "primogemcraft:jianlaoduanpian"
     }
-  },
+  ],
   "result": {
     "item": "primogemcraft:jianransuixie",
     "count": 5

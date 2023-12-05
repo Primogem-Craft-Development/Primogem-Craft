@@ -2,20 +2,11 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "01",
-    "23"
+    "aa",
+    "aa"
   ],
   "key": {
-    "0": {
-      "item": "primogemcraft:ziziyousongshisuixie"
-    },
-    "1": {
-      "item": "primogemcraft:ziziyousongshisuixie"
-    },
-    "2": {
-      "item": "primogemcraft:ziziyousongshisuixie"
-    },
-    "3": {
+    "a": {
       "item": "primogemcraft:ziziyousongshisuixie"
     }
   },

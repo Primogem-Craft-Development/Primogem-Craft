@@ -2,34 +2,22 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "0 2",
-    "345",
-    "678"
+    "a b",
+    "cdc",
+    "ccc"
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "primogemcraft:xixiangyuzhiyuan"
     },
-    "2": {
+    "b": {
       "item": "primogemcraft:jiuchanzhiyuanxian"
     },
-    "3": {
+    "c": {
       "item": "primogemcraft:jijiuchanzhiyuan"
     },
-    "4": {
+    "d": {
       "item": "primogemcraft:jinzhimola"
-    },
-    "5": {
-      "item": "primogemcraft:jijiuchanzhiyuan"
-    },
-    "6": {
-      "item": "primogemcraft:jijiuchanzhiyuan"
-    },
-    "7": {
-      "item": "primogemcraft:jijiuchanzhiyuan"
-    },
-    "8": {
-      "item": "primogemcraft:jijiuchanzhiyuan"
     }
   },
   "result": {

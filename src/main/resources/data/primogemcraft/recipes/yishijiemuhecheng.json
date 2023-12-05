@@ -2,37 +2,16 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "012",
-    "345",
-    "678"
+    "aaa",
+    "aba",
+    "aaa"
   ],
   "key": {
-    "0": {
+    "a": {
       "tag": "minecraft:logs"
     },
-    "1": {
-      "tag": "minecraft:logs"
-    },
-    "2": {
-      "tag": "minecraft:logs"
-    },
-    "3": {
-      "tag": "minecraft:logs"
-    },
-    "4": {
+    "b": {
       "item": "primogemcraft:yuanshi"
-    },
-    "5": {
-      "tag": "minecraft:logs"
-    },
-    "6": {
-      "tag": "minecraft:logs"
-    },
-    "7": {
-      "tag": "minecraft:logs"
-    },
-    "8": {
-      "tag": "minecraft:logs"
     }
   },
   "result": {

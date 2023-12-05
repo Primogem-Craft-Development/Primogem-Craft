@@ -2,37 +2,22 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "012",
-    "345",
-    "678"
+    "aba",
+    "cdc",
+    "aba"
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "minecraft:amethyst_shard"
     },
-    "1": {
+    "b": {
       "item": "primogemcraft:dijingsuixie"
     },
-    "2": {
-      "item": "minecraft:amethyst_shard"
-    },
-    "3": {
+    "c": {
       "item": "primogemcraft:dijingduanpian"
     },
-    "4": {
+    "d": {
       "item": "minecraft:diamond"
-    },
-    "5": {
-      "item": "primogemcraft:dijingduanpian"
-    },
-    "6": {
-      "item": "minecraft:amethyst_shard"
-    },
-    "7": {
-      "item": "primogemcraft:dijingsuixie"
-    },
-    "8": {
-      "item": "minecraft:amethyst_shard"
     }
   },
   "result": {
