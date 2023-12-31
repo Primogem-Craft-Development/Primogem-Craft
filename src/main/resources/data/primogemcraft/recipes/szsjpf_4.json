@@ -3,20 +3,17 @@
   "category": "misc",
   "pattern": [
     "aba",
-    "cdc",
+    "bcb",
     "aba"
   ],
   "key": {
     "a": {
-      "item": "primogemcraft:yuanshi"
+      "item": "primogemcraft:jlmo"
     },
     "b": {
-      "item": "minecraft:netherite_scrap"
+      "item": "primogemcraft:zhjs"
     },
     "c": {
-      "item": "primogemcraft:shengzhangkuai"
-    },
-    "d": {
       "item": "minecraft:netherite_ingot"
     }
   },

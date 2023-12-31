@@ -4,7 +4,7 @@
     {
       "rolls": {
         "min": 2,
-        "max": 4
+        "max": 3
       },
       "entries": [
         {
@@ -17,76 +17,6 @@
               "count": {
                 "min": 1,
                 "max": 1
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:copper_ingot",
-          "weight": 16,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 2
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:raw_copper",
-          "weight": 16,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 2
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_ingot",
-          "weight": 16,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 4
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:raw_iron",
-          "weight": 16,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 4
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_nugget",
-          "weight": 16,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 8,
-                "max": 16
               }
             }
           ]
@@ -118,12 +48,40 @@
               }
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "primogemcraft:jlza",
+          "weight": 16,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 5,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "primogemcraft:jlliang",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
         }
       ]
     },
     {
       "rolls": {
-        "min": 1,
+        "min": 0,
         "max": 2
       },
       "entries": [

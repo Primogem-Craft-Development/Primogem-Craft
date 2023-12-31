@@ -3,18 +3,18 @@
   "category": "misc",
   "pattern": [
     "aba",
-    "bcb",
-    "aba"
+    "cac",
+    "bcb"
   ],
   "key": {
     "a": {
-      "item": "primogemcraft:yuanshi"
+      "item": "minecraft:netherite_scrap"
     },
     "b": {
-      "item": "primogemcraft:ranyuanduanpian"
+      "item": "primogemcraft:ryjs"
     },
     "c": {
-      "item": "minecraft:netherite_scrap"
+      "item": "primogemcraft:jlmo"
     }
   },
   "result": {

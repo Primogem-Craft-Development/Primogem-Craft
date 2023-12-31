@@ -25,8 +25,8 @@ import net.mcreator.ceshi.PrimogemcraftMod;
 @Mod.EventBusSubscriber
 public class PrimogemcraftModFeatures {
 	public static final DeferredRegister<Feature<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.FEATURES, PrimogemcraftMod.MODID);
-	public static final RegistryObject<Feature<?>> MOLAYIJI_01_FEATURE = REGISTRY.register("molayiji_01_feature", Molayiji01FeatureFeature::new);
 	public static final RegistryObject<Feature<?>> YUANSHIKUANGSHI_FEATURE = REGISTRY.register("yuanshikuangshi_feature", YuanshikuangshiFeatureFeature::new);
+	public static final RegistryObject<Feature<?>> MOLAYIJI_01_FEATURE = REGISTRY.register("molayiji_01_feature", Molayiji01FeatureFeature::new);
 	public static final RegistryObject<Feature<?>> DIBIAOMOLA_01_FEATURE = REGISTRY.register("dibiaomola_01_feature", Dibiaomola01FeatureFeature::new);
 	public static final RegistryObject<Feature<?>> XXIAOGUANZI_01_FEATURE = REGISTRY.register("xxiaoguanzi_01_feature", Xxiaoguanzi01FeatureFeature::new);
 	public static final RegistryObject<Feature<?>> XXIAOGUANZI_02_FEATURE = REGISTRY.register("xxiaoguanzi_02_feature", Xxiaoguanzi02FeatureFeature::new);

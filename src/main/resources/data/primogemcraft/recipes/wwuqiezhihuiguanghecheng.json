@@ -3,26 +3,23 @@
   "category": "misc",
   "pattern": [
     " ab",
-    "cd ",
-    "ef "
+    "ac ",
+    "de "
   ],
   "key": {
     "a": {
-      "item": "primogemcraft:zuishengkuai"
+      "item": "primogemcraft:yhjs"
     },
     "b": {
       "item": "minecraft:diamond"
     },
     "c": {
-      "item": "primogemcraft:zuishengzijing"
-    },
-    "d": {
       "item": "minecraft:diamond_sword"
     },
-    "e": {
+    "d": {
       "item": "minecraft:white_terracotta"
     },
-    "f": {
+    "e": {
       "item": "minecraft:stick"
     }
   },

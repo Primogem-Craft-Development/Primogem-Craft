@@ -1396,6 +1396,34 @@
               }
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "primogemcraft:jlza",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "primogemcraft:jlliang",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
         }
       ]
     },
@@ -1405,7 +1433,7 @@
         {
           "type": "minecraft:item",
           "name": "primogemcraft:xingchen",
-          "weight": 5,
+          "weight": 2,
           "functions": [
             {
               "function": "set_count",
@@ -1419,12 +1447,12 @@
         {
           "type": "minecraft:item",
           "name": "primogemcraft:xingchen",
-          "weight": 2,
+          "weight": 5,
           "functions": [
             {
               "function": "set_count",
               "count": {
-                "min": 1,
+                "min": 2,
                 "max": 2
               }
             }
@@ -1433,13 +1461,13 @@
         {
           "type": "minecraft:item",
           "name": "primogemcraft:xingchen",
-          "weight": 1,
+          "weight": 2,
           "functions": [
             {
               "function": "set_count",
               "count": {
-                "min": 2,
-                "max": 3
+                "min": 3,
+                "max": 4
               }
             }
           ]

@@ -31,6 +31,7 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.ceshi.procedures.MoladuixianzhiProcedure;
 import net.mcreator.ceshi.procedures.MldsxProcedure;
 import net.mcreator.ceshi.init.PrimogemcraftModItems;
 import net.mcreator.ceshi.block.entity.Mlxdml03BlockEntity;
@@ -110,6 +111,18 @@ public class Mlxdml03Block extends FallingBlock implements EntityBlock {
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
 		return Collections.singletonList(new ItemStack(PrimogemcraftModItems.MMOLA_01.get(), 21));
+	}
+
+	@Override
+	public void onPlace(BlockState blockstate, Level world, BlockPos pos, BlockState oldState, boolean moving) {
+		super.onPlace(blockstate, world, pos, oldState, moving);
+		MoladuixianzhiProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ(), blockstate);
+	}
+
+	@Override
+	public void neighborChanged(BlockState blockstate, Level world, BlockPos pos, Block neighborBlock, BlockPos fromPos, boolean moving) {
+		super.neighborChanged(blockstate, world, pos, neighborBlock, fromPos, moving);
+		MoladuixianzhiProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ(), blockstate);
 	}
 
 	@Override

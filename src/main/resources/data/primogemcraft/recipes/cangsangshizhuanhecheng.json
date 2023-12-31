@@ -8,7 +8,7 @@
   ],
   "key": {
     "a": {
-      "tag": "minecraft:stone"
+      "tag": "forge:stone"
     },
     "b": {
       "item": "primogemcraft:disuikuai_1"

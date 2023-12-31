@@ -3,5 +3,5 @@
   "textures": {
     "pane": "primogemcraft:block/tiesiwang"
   },
-  "render_type": "solid"
+  "render_type": "cutout"
 }

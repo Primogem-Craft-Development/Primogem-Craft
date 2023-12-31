@@ -1,9 +1,8 @@
 {
-  "parent": "primogemcraft:custom/disui1",
+  "parent": "block/cross",
   "textures": {
-    "all": "primogemcraft:block/disuijiejing001",
-    "particle": "primogemcraft:block/disui",
-    "0": "primogemcraft:block/disuijiejing001"
+    "cross": "primogemcraft:block/di_sui_shui_jing_lin_shi_",
+    "particle": "primogemcraft:block/disui"
   },
-  "render_type": "solid"
+  "render_type": "cutout"
 }

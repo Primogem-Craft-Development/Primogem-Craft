@@ -23,14 +23,13 @@ import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.inventory.AbstractContainerMenu;
-import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.MenuProvider;
 import net.minecraft.world.Containers;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.ceshi.procedures.Mldsx2Procedure;
+import net.mcreator.ceshi.procedures.MoladuixianzhiProcedure;
 import net.mcreator.ceshi.init.PrimogemcraftModItems;
 import net.mcreator.ceshi.block.entity.Moladui02BlockEntity;
 
@@ -112,9 +111,15 @@ public class Moladui02Block extends FallingBlock implements EntityBlock {
 	}
 
 	@Override
-	public void attack(BlockState blockstate, Level world, BlockPos pos, Player entity) {
-		super.attack(blockstate, world, pos, entity);
-		Mldsx2Procedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
+	public void onPlace(BlockState blockstate, Level world, BlockPos pos, BlockState oldState, boolean moving) {
+		super.onPlace(blockstate, world, pos, oldState, moving);
+		MoladuixianzhiProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ(), blockstate);
+	}
+
+	@Override
+	public void neighborChanged(BlockState blockstate, Level world, BlockPos pos, Block neighborBlock, BlockPos fromPos, boolean moving) {
+		super.neighborChanged(blockstate, world, pos, neighborBlock, fromPos, moving);
+		MoladuixianzhiProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ(), blockstate);
 	}
 
 	@Override

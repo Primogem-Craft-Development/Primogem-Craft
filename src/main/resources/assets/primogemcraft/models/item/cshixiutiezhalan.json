@@ -3,5 +3,5 @@
   "textures": {
     "layer0": "primogemcraft:block/tiesiwang"
   },
-  "render_type": "solid"
+  "render_type": "cutout"
 }

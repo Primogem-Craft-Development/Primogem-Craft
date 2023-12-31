@@ -3,8 +3,8 @@
   "pools": [
     {
       "rolls": {
-        "min": 1,
-        "max": 2
+        "min": 2,
+        "max": 3
       },
       "entries": [
         {
@@ -48,13 +48,55 @@
               }
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "primogemcraft:jlza",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 16,
+                "max": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "primogemcraft:jlliang",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "primogemcraft:jlmo",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
         }
       ]
     },
     {
       "rolls": {
-        "min": 1,
-        "max": 2
+        "min": 2,
+        "max": 3
       },
       "entries": [
         {
@@ -65,8 +107,8 @@
             {
               "function": "set_count",
               "count": {
-                "min": 2,
-                "max": 6
+                "min": 1,
+                "max": 3
               }
             }
           ]
@@ -79,8 +121,8 @@
             {
               "function": "set_count",
               "count": {
-                "min": 2,
-                "max": 6
+                "min": 1,
+                "max": 3
               }
             }
           ]
@@ -93,8 +135,8 @@
             {
               "function": "set_count",
               "count": {
-                "min": 2,
-                "max": 6
+                "min": 1,
+                "max": 3
               }
             }
           ]
@@ -107,8 +149,8 @@
             {
               "function": "set_count",
               "count": {
-                "min": 2,
-                "max": 6
+                "min": 1,
+                "max": 3
               }
             }
           ]
@@ -121,8 +163,8 @@
             {
               "function": "set_count",
               "count": {
-                "min": 2,
-                "max": 6
+                "min": 1,
+                "max": 3
               }
             }
           ]
@@ -135,8 +177,8 @@
             {
               "function": "set_count",
               "count": {
-                "min": 2,
-                "max": 6
+                "min": 1,
+                "max": 3
               }
             }
           ]
@@ -149,8 +191,8 @@
             {
               "function": "set_count",
               "count": {
-                "min": 2,
-                "max": 6
+                "min": 1,
+                "max": 3
               }
             }
           ]
@@ -164,7 +206,7 @@
               "function": "set_count",
               "count": {
                 "min": 1,
-                "max": 2
+                "max": 1
               }
             }
           ]
@@ -178,7 +220,7 @@
               "function": "set_count",
               "count": {
                 "min": 1,
-                "max": 2
+                "max": 1
               }
             }
           ]
@@ -192,7 +234,7 @@
               "function": "set_count",
               "count": {
                 "min": 1,
-                "max": 2
+                "max": 1
               }
             }
           ]
@@ -206,7 +248,7 @@
               "function": "set_count",
               "count": {
                 "min": 1,
-                "max": 2
+                "max": 1
               }
             }
           ]
@@ -220,7 +262,7 @@
               "function": "set_count",
               "count": {
                 "min": 1,
-                "max": 2
+                "max": 1
               }
             }
           ]
@@ -234,7 +276,7 @@
               "function": "set_count",
               "count": {
                 "min": 1,
-                "max": 2
+                "max": 1
               }
             }
           ]
@@ -248,7 +290,7 @@
               "function": "set_count",
               "count": {
                 "min": 1,
-                "max": 2
+                "max": 1
               }
             }
           ]

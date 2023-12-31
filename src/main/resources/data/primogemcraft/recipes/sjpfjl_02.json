@@ -4,20 +4,26 @@
   "pattern": [
     "aba",
     "cdc",
-    "aba"
+    "efe"
   ],
   "key": {
     "a": {
-      "item": "minecraft:amethyst_shard"
+      "item": "primogemcraft:mmola_01"
     },
     "b": {
-      "item": "primogemcraft:jianransuixie"
+      "item": "minecraft:diamond"
     },
     "c": {
-      "item": "primogemcraft:jianlaoduanpian"
+      "item": "primogemcraft:jianransuixie"
     },
     "d": {
-      "item": "minecraft:diamond"
+      "item": "primogemcraft:jlzs"
+    },
+    "e": {
+      "item": "primogemcraft:jlliang"
+    },
+    "f": {
+      "item": "primogemcraft:jlmo"
     }
   },
   "result": {

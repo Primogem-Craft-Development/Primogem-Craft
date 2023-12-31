@@ -3,18 +3,24 @@
   "category": "misc",
   "pattern": [
     "aba",
-    "bcb",
-    "aba"
+    "aca",
+    "ded"
   ],
   "key": {
     "a": {
-      "item": "minecraft:copper_ingot"
+      "item": "primogemcraft:jlza"
     },
     "b": {
       "item": "primogemcraft:ranyuansuixie"
     },
     "c": {
       "item": "minecraft:iron_pickaxe"
+    },
+    "d": {
+      "item": "minecraft:quartz"
+    },
+    "e": {
+      "item": "primogemcraft:jlliang"
     }
   },
   "result": {

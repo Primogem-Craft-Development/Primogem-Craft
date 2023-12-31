@@ -3,18 +3,27 @@
   "category": "misc",
   "pattern": [
     "aba",
-    "bcb",
-    "aba"
+    "aca",
+    "def"
   ],
   "key": {
     "a": {
-      "item": "minecraft:copper_ingot"
+      "item": "primogemcraft:jlza"
     },
     "b": {
       "item": "primogemcraft:zuishengsuixie"
     },
     "c": {
       "item": "minecraft:iron_pickaxe"
+    },
+    "d": {
+      "item": "minecraft:redstone"
+    },
+    "e": {
+      "item": "primogemcraft:jlliang"
+    },
+    "f": {
+      "item": "minecraft:lapis_lazuli"
     }
   },
   "result": {
