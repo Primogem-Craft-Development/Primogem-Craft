@@ -1,11 +1,13 @@
 {
   "type": "minecraft:smithing_transform",
-  "template": [],
+  "template": {
+    "item": "minecraft:gold_nugget"
+  },
   "base": {
     "item": "primogemcraft:mmola_01"
   },
   "addition": {
-    "item": "minecraft:gold_ingot"
+    "item": "primogemcraft:mmola_01"
   },
   "result": {
     "item": "primogemcraft:jinzhimola"

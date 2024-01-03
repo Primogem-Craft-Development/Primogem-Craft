@@ -13,7 +13,7 @@ import java.util.List;
 
 public class BufengpingItem extends Item {
 	public BufengpingItem() {
-		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON));
+		super(new Item.Properties().stacksTo(8).rarity(Rarity.COMMON));
 	}
 
 	@Override
@@ -29,7 +29,7 @@ public class BufengpingItem extends Item {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(Component.literal("\u00A7b\u7A7A\u74F6\u00A7a\u6F5C\u884C+\u53F3\u952E\u00A7b\u7A7A\u6C14\u00A7a\u83B7\u5F97"));
-		list.add(Component.literal("\u4E5F\u53EF\u4EE5\u5408\u6210"));
+		list.add(Component.literal("\u00A77\u53F3\u952E\u4F7F\u7528"));
+		list.add(Component.literal("\u00A77\u7A7A\u74F6\u6F5C\u884C\u53F3\u952E\u5F97\u5230"));
 	}
 }

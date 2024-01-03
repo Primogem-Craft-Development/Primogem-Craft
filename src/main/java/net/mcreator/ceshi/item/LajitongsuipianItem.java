@@ -18,6 +18,6 @@ public class LajitongsuipianItem extends Item {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(Component.literal("\u788E\u6389\u4E86...."));
+		list.add(Component.literal("\u00A77\u554A...\u788E\u6389\u4E86..."));
 	}
 }

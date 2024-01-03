@@ -1,13 +1,13 @@
 {
   "type": "minecraft:smithing_transform",
   "template": {
-    "item": "minecraft:stick"
+    "item": "primogemcraft:zhuangmanlajidelajitong"
   },
   "base": {
     "item": "minecraft:iron_ingot"
   },
   "addition": {
-    "item": "primogemcraft:zhuangmanlajidelajitong"
+    "item": "minecraft:iron_ingot"
   },
   "result": {
     "item": "primogemcraft:zhongkouweitieding"

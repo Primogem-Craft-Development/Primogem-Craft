@@ -1,6 +1,8 @@
 {
   "type": "minecraft:smithing_transform",
-  "template": [],
+  "template": {
+    "item": "primogemcraft:yuanshiyuanpei"
+  },
   "base": {
     "item": "primogemcraft:djg"
   },

@@ -3,11 +3,11 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "primogemcraft:bufengping"
+      "item": "minecraft:glass_bottle"
     }
   ],
   "result": {
-    "item": "minecraft:glass_bottle",
+    "item": "primogemcraft:bufengping",
     "count": 1
   }
 }

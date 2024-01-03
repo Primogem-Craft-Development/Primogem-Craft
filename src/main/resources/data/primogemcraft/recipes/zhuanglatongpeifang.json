@@ -2,23 +2,29 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "aba",
-    "bcb",
-    "aba"
+    "aaa",
+    "bcd",
+    "eee"
   ],
   "key": {
     "a": {
-      "item": "primogemcraft:lajitong"
-    },
-    "b": {
       "item": "primogemcraft:laji"
     },
+    "b": {
+      "item": "minecraft:fermented_spider_eye"
+    },
     "c": {
-      "item": "minecraft:stick"
+      "item": "minecraft:water_bucket"
+    },
+    "d": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "e": {
+      "item": "minecraft:glass_bottle"
     }
   },
   "result": {
     "item": "primogemcraft:zhuangmanlajidelajitong",
-    "count": 1
+    "count": 3
   }
 }

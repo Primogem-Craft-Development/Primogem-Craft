@@ -74,6 +74,7 @@ import net.mcreator.ceshi.block.Disuikuai1Block;
 import net.mcreator.ceshi.block.DijingqinjingkuangshiBlock;
 import net.mcreator.ceshi.block.DijingqingjinkuaiBlock;
 import net.mcreator.ceshi.block.DbmlkBlock;
+import net.mcreator.ceshi.block.DangaoliyueBlock;
 import net.mcreator.ceshi.block.DaguanziBlock;
 import net.mcreator.ceshi.block.D17Block;
 import net.mcreator.ceshi.block.D16Block;
@@ -86,7 +87,6 @@ import net.mcreator.ceshi.block.CshixiutiezhalanBlock;
 import net.mcreator.ceshi.block.ChuangzaoxiaodengfasheqiBlock;
 import net.mcreator.ceshi.block.ChiyuejinshukuangBlock;
 import net.mcreator.ceshi.block.CeshixiaodengfasheqiBlock;
-import net.mcreator.ceshi.block.CeshiguanziBlock;
 import net.mcreator.ceshi.block.Ceshi_mucaibaoStairsBlock;
 import net.mcreator.ceshi.block.Ceshi_mucaibaoSlabBlock;
 import net.mcreator.ceshi.block.Ceshi_mucaibaoPressurePlateBlock;
@@ -129,7 +129,6 @@ public class PrimogemcraftModBlocks {
 	public static final RegistryObject<Block> MMOLAZHILAJITONG = REGISTRY.register("mmolazhilajitong", () -> new MmolazhilajitongBlock());
 	public static final RegistryObject<Block> XIAOGUANZI = REGISTRY.register("xiaoguanzi", () -> new XiaoguanziBlock());
 	public static final RegistryObject<Block> DAGUANZI = REGISTRY.register("daguanzi", () -> new DaguanziBlock());
-	public static final RegistryObject<Block> CESHIGUANZI = REGISTRY.register("ceshiguanzi", () -> new CeshiguanziBlock());
 	public static final RegistryObject<Block> YUANSHIKUANGSHI = REGISTRY.register("yuanshikuangshi", () -> new YuanshikuangshiBlock());
 	public static final RegistryObject<Block> SHENBANYANYUANSHIKUANGSHI = REGISTRY.register("shenbanyanyuanshikuangshi", () -> new ShenbanyanyuanshikuangshiBlock());
 	public static final RegistryObject<Block> SHIZUOYUANSHIKUAI = REGISTRY.register("shizuoyuanshikuai", () -> new ShizuoyuanshikuaiBlock());
@@ -226,4 +225,5 @@ public class PrimogemcraftModBlocks {
 	public static final RegistryObject<Block> CAOMU_36 = REGISTRY.register("caomu_36", () -> new Caomu36Block());
 	public static final RegistryObject<Block> YISHIJIEMUBAN_BUTTON = REGISTRY.register("yishijiemuban_button", () -> new YishijiemubanButtonBlock());
 	public static final RegistryObject<Block> D_17 = REGISTRY.register("d_17", () -> new D17Block());
+	public static final RegistryObject<Block> DANGAOLIYUE = REGISTRY.register("dangaoliyue", () -> new DangaoliyueBlock());
 }

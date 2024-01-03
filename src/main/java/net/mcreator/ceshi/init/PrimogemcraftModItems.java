@@ -435,7 +435,6 @@ public class PrimogemcraftModItems {
 	public static final RegistryObject<Item> CAOYUANHESHENGWU_SPAWN_EGG = REGISTRY.register("caoyuanheshengwu_spawn_egg", () -> new ForgeSpawnEggItem(PrimogemcraftModEntities.CAOYUANHESHENGWU, -13369600, -3342490, new Item.Properties()));
 	public static final RegistryObject<Item> XIAODENG_SPAWN_EGG = REGISTRY.register("xiaodeng_spawn_egg", () -> new ForgeSpawnEggItem(PrimogemcraftModEntities.XIAODENG, -13312, -26368, new Item.Properties()));
 	public static final RegistryObject<Item> XIAOHEITA_SPAWN_EGG = REGISTRY.register("xiaoheita_spawn_egg", () -> new ForgeSpawnEggItem(PrimogemcraftModEntities.XIAOHEITA, -7370515, -10414411, new Item.Properties()));
-	public static final RegistryObject<Item> CESHIGUANZI = block(PrimogemcraftModBlocks.CESHIGUANZI);
 	public static final RegistryObject<Item> ZIZIYOUSONGSHISUIXIE = REGISTRY.register("ziziyousongshisuixie", () -> new ZiziyousongshisuixieItem());
 	public static final RegistryObject<Item> ZZIYOUSONGSHIDUANPIAN = REGISTRY.register("zziyousongshiduanpian", () -> new ZziyousongshiduanpianItem());
 	public static final RegistryObject<Item> ZZIYOUSONGSHIKUAI = REGISTRY.register("zziyousongshikuai", () -> new ZziyousongshikuaiItem());
@@ -757,6 +756,7 @@ public class PrimogemcraftModItems {
 	public static final RegistryObject<Item> QQIWUZHANLIPINSHITI_SPAWN_EGG = REGISTRY.register("qqiwuzhanlipinshiti_spawn_egg", () -> new ForgeSpawnEggItem(PrimogemcraftModEntities.QQIWUZHANLIPINSHITI, -1, -1, new Item.Properties()));
 	public static final RegistryObject<Item> BAIGUANGGUODUSHENGWU_SPAWN_EGG = REGISTRY.register("baiguangguodushengwu_spawn_egg", () -> new ForgeSpawnEggItem(PrimogemcraftModEntities.BAIGUANGGUODUSHENGWU, -1, -1, new Item.Properties()));
 	public static final RegistryObject<Item> KAIFAQIANGZHI_01 = REGISTRY.register("kaifaqiangzhi_01", () -> new Kaifaqiangzhi01Item());
+	public static final RegistryObject<Item> DANGAOLIYUE = block(PrimogemcraftModBlocks.DANGAOLIYUE);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

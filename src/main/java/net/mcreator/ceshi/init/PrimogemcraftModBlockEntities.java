@@ -18,6 +18,7 @@ import net.mcreator.ceshi.block.entity.Mlxdml02BlockEntity;
 import net.mcreator.ceshi.block.entity.Mlxdml01BlockEntity;
 import net.mcreator.ceshi.block.entity.LajitongBlockEntity;
 import net.mcreator.ceshi.block.entity.GanjinglajitongxiangziBlockEntity;
+import net.mcreator.ceshi.block.entity.DangaoliyueBlockEntity;
 import net.mcreator.ceshi.block.entity.ChuangzaoxiaodengfasheqiBlockEntity;
 import net.mcreator.ceshi.block.entity.CeshixiaodengfasheqiBlockEntity;
 import net.mcreator.ceshi.PrimogemcraftMod;
@@ -33,6 +34,7 @@ public class PrimogemcraftModBlockEntities {
 	public static final RegistryObject<BlockEntityType<?>> MLXDML_01 = register("mlxdml_01", PrimogemcraftModBlocks.MLXDML_01, Mlxdml01BlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> MLXDML_02 = register("mlxdml_02", PrimogemcraftModBlocks.MLXDML_02, Mlxdml02BlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> MLXDML_03 = register("mlxdml_03", PrimogemcraftModBlocks.MLXDML_03, Mlxdml03BlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> DANGAOLIYUE = register("dangaoliyue", PrimogemcraftModBlocks.DANGAOLIYUE, DangaoliyueBlockEntity::new);
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block, BlockEntityType.BlockEntitySupplier<?> supplier) {
 		return REGISTRY.register(registryname, () -> BlockEntityType.Builder.of(supplier, block.get()).build(null));
