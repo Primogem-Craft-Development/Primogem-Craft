@@ -31,6 +31,8 @@ import java.util.function.Supplier;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class PrimogemcraftModVariables {
+	public static boolean genshincraft = false;
+
 	@SubscribeEvent
 	public static void init(FMLCommonSetupEvent event) {
 		PrimogemcraftMod.addNetworkMessage(PlayerVariablesSyncMessage.class, PlayerVariablesSyncMessage::buffer, PlayerVariablesSyncMessage::new, PlayerVariablesSyncMessage::handler);

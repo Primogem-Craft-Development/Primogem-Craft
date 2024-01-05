@@ -10,6 +10,8 @@ import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.resources.ResourceLocation;
 
+import net.mcreator.ceshi.network.PrimogemcraftModVariables;
+
 public class Axtsx2Procedure {
 	public static void execute(Entity entity, ItemStack itemstack) {
 		if (entity == null)
@@ -46,7 +48,8 @@ public class Axtsx2Procedure {
 								(int) (((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.FEET) : ItemStack.EMPTY).getOrCreateTag().getDouble("aixu_tao_zhi")
 										+ (entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.LEGS) : ItemStack.EMPTY).getOrCreateTag().getDouble("aixu_tao_zhi")
 										+ (entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.CHEST) : ItemStack.EMPTY).getOrCreateTag().getDouble("aixu_tao_zhi")
-										+ (entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY).getOrCreateTag().getDouble("aixu_tao_zhi")) * 0.25),
+										+ (entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY).getOrCreateTag().getDouble("aixu_tao_zhi"))
+										* (PrimogemcraftModVariables.genshincraft ? 8 : 0.5)),
 								true, false));
 				}
 			} else {
@@ -61,5 +64,6 @@ public class Axtsx2Procedure {
 					_entity.removeEffect(MobEffects.HEALTH_BOOST);
 			}
 		}
+		AxbykjsxxfProcedure.execute(entity);
 	}
 }

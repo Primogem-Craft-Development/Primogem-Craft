@@ -44,5 +44,6 @@ public class Axtsx4Procedure {
 				}
 			}
 		}
+		AxbykjsxxfProcedure.execute(entity);
 	}
 }

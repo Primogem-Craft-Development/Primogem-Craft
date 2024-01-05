@@ -7,6 +7,7 @@ import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.BlockHitResult;
+import net.minecraft.world.level.material.FluidState;
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.BlockState;
@@ -38,6 +39,7 @@ import net.minecraft.core.BlockPos;
 
 import net.mcreator.ceshi.world.inventory.CeshiguiMenu;
 import net.mcreator.ceshi.procedures.WufahuitouchengjiuProcedure;
+import net.mcreator.ceshi.procedures.LjtghdsxProcedure;
 import net.mcreator.ceshi.block.entity.LajitongBlockEntity;
 
 import java.util.List;
@@ -100,6 +102,13 @@ public class LajitongBlock extends Block implements EntityBlock {
 
 	public BlockState mirror(BlockState state, Mirror mirrorIn) {
 		return state.rotate(mirrorIn.getRotation(state.getValue(FACING)));
+	}
+
+	@Override
+	public boolean onDestroyedByPlayer(BlockState blockstate, Level world, BlockPos pos, Player entity, boolean willHarvest, FluidState fluid) {
+		boolean retval = super.onDestroyedByPlayer(blockstate, world, pos, entity, willHarvest, fluid);
+		LjtghdsxProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ(), entity);
+		return retval;
 	}
 
 	@Override

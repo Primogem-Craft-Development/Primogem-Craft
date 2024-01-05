@@ -95,5 +95,6 @@ public class Axtsx3Procedure {
 				}
 			}
 		}
+		AxbykjsxxfProcedure.execute(entity);
 	}
 }

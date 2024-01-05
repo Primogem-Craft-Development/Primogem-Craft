@@ -112,5 +112,6 @@ public class Axtsx1Procedure {
 					_entity.removeEffect(PrimogemcraftModMobEffects.FEIXING.get());
 			}
 		}
+		AxbykjsxxfProcedure.execute(entity);
 	}
 }

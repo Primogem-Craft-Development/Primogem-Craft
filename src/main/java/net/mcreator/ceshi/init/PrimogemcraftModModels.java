@@ -19,8 +19,8 @@ public class PrimogemcraftModModels {
 	@SubscribeEvent
 	public static void registerLayerDefinitions(EntityRenderersEvent.RegisterLayerDefinitions event) {
 		event.registerLayerDefinition(Modeljinguangshiti01_Converted_Converted.LAYER_LOCATION, Modeljinguangshiti01_Converted_Converted::createBodyLayer);
+		event.registerLayerDefinition(Modelceshixiaodeng_Converted.LAYER_LOCATION, Modelceshixiaodeng_Converted::createBodyLayer);
 		event.registerLayerDefinition(Modelcx_cyhsrmx.LAYER_LOCATION, Modelcx_cyhsrmx::createBodyLayer);
 		event.registerLayerDefinition(Modelheitaxiaoren_Converted_Converted.LAYER_LOCATION, Modelheitaxiaoren_Converted_Converted::createBodyLayer);
-		event.registerLayerDefinition(Modelceshixiaodeng_Converted.LAYER_LOCATION, Modelceshixiaodeng_Converted::createBodyLayer);
 	}
 }

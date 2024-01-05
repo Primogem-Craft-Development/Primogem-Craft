@@ -7,11 +7,18 @@ package net.mcreator.ceshi.init;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.common.ForgeSpawnEggItem;
+import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.client.renderer.item.ItemProperties;
 
 import net.mcreator.ceshi.item.ZzjsItem;
 import net.mcreator.ceshi.item.ZzjllItem;
@@ -66,6 +73,7 @@ import net.mcreator.ceshi.item.YuanshigaoItem;
 import net.mcreator.ceshi.item.YuanshifuItem;
 import net.mcreator.ceshi.item.YuanshichutouItem;
 import net.mcreator.ceshi.item.YuanshiItem;
+import net.mcreator.ceshi.item.YsjbfpkItem;
 import net.mcreator.ceshi.item.YsfcItem;
 import net.mcreator.ceshi.item.YoudianqiqiaodedaimaItem;
 import net.mcreator.ceshi.item.YiyinhedaletouItem;
@@ -74,6 +82,7 @@ import net.mcreator.ceshi.item.YishijiemugunItem;
 import net.mcreator.ceshi.item.YibangrenzhinangItem;
 import net.mcreator.ceshi.item.YhjslItem;
 import net.mcreator.ceshi.item.YhjsItem;
+import net.mcreator.ceshi.item.XzcfyxwzdItem;
 import net.mcreator.ceshi.item.XixiangyuzhiyuanItem;
 import net.mcreator.ceshi.item.Xiwangdeyitian011Item;
 import net.mcreator.ceshi.item.XinyuejinshuItem;
@@ -195,6 +204,8 @@ import net.mcreator.ceshi.item.MaoxianjiazhinangItem;
 import net.mcreator.ceshi.item.MaoxianjiadejingyanItem;
 import net.mcreator.ceshi.item.ManyuejinshuItem;
 import net.mcreator.ceshi.item.LuanqibazaodedaimaItem;
+import net.mcreator.ceshi.item.Ljtg02Item;
+import net.mcreator.ceshi.item.Ljtg01Item;
 import net.mcreator.ceshi.item.LiulangzhezhinangItem;
 import net.mcreator.ceshi.item.LiulangzhedejingyanItem;
 import net.mcreator.ceshi.item.LijsItem;
@@ -295,6 +306,7 @@ import net.mcreator.ceshi.item.AixubingyuItem;
 import net.mcreator.ceshi.item.AaixubingyuduanpianItem;
 import net.mcreator.ceshi.PrimogemcraftMod;
 
+@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class PrimogemcraftModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, PrimogemcraftMod.MODID);
 	public static final RegistryObject<Item> BUSHIZIDANHE = REGISTRY.register("bushizidanhe", () -> new BushizidanheItem());
@@ -757,8 +769,21 @@ public class PrimogemcraftModItems {
 	public static final RegistryObject<Item> BAIGUANGGUODUSHENGWU_SPAWN_EGG = REGISTRY.register("baiguangguodushengwu_spawn_egg", () -> new ForgeSpawnEggItem(PrimogemcraftModEntities.BAIGUANGGUODUSHENGWU, -1, -1, new Item.Properties()));
 	public static final RegistryObject<Item> KAIFAQIANGZHI_01 = REGISTRY.register("kaifaqiangzhi_01", () -> new Kaifaqiangzhi01Item());
 	public static final RegistryObject<Item> DANGAOLIYUE = block(PrimogemcraftModBlocks.DANGAOLIYUE);
+	public static final RegistryObject<Item> YSJBFPK = REGISTRY.register("ysjbfpk", () -> new YsjbfpkItem());
+	public static final RegistryObject<Item> LJTG_01 = REGISTRY.register("ljtg_01", () -> new Ljtg01Item());
+	public static final RegistryObject<Item> LJTG_02 = REGISTRY.register("ljtg_02", () -> new Ljtg02Item());
+	public static final RegistryObject<Item> XZCFYXWZD = REGISTRY.register("xzcfyxwzd", () -> new XzcfyxwzdItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
+	}
+
+	@SubscribeEvent
+	public static void clientLoad(FMLClientSetupEvent event) {
+		event.enqueueWork(() -> {
+			ItemProperties.register(LJTG_01.get(), new ResourceLocation("blocking"), ItemProperties.getProperty(Items.SHIELD, new ResourceLocation("blocking")));
+			ItemProperties.register(LJTG_02.get(), new ResourceLocation("blocking"), ItemProperties.getProperty(Items.SHIELD, new ResourceLocation("blocking")));
+			ItemProperties.register(XZCFYXWZD.get(), new ResourceLocation("blocking"), ItemProperties.getProperty(Items.SHIELD, new ResourceLocation("blocking")));
+		});
 	}
 }

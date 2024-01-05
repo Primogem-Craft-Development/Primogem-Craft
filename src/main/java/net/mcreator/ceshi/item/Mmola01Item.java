@@ -24,8 +24,6 @@ public class Mmola01Item extends Item {
 		super.appendHoverText(itemstack, world, list, flag);
 		list.add(Component.literal("\u00A77\u636E\u8BF4\u662F\u67D0\u4E2A\u4E16\u754C\u7684\u901A\u7528\u8D27\u5E01"));
 		list.add(Component.literal("\u00A77\u4F46\u7EDD\u5BF9\u4E0D\u662F\u8FD9\u91CC"));
-		list.add(Component.literal("\u00A7"));
-		list.add(Component.literal("\u00A75[SHIFT+\u53F3\u952E]\u00A7d\u5B9E\u4F53\u00A7c\u00A7m\u6536\u4E70\u00A7d\u6DFB\u52A0\u961F\u53CB"));
 	}
 
 	@Override
